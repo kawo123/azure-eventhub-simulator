@@ -19,6 +19,19 @@ Python utility for simulating events to Azure Event Hub using predefined dataset
   - Run `terraform apply out.tfplan`
   - Note the outputs of `terraform apply`
 
+- In `./`:
+  - Install python dependencies from `./requirements.txt`
+  - Run `event_hub_simulator.py`
+    - Use `--help` flag for more information on how to run this utility if needed
+
+```bash
+python eventhub_simulator.py \
+  --conn-str <event-hub-connection-string> \
+  --data-path <csv-file-path>
+```
+
+- Feel free to use sample data `"./data/productclickstream.csv"` as `<csv-file-path>` in the above sample
+
 ---
 
 ### PLEASE NOTE FOR THE ENTIRETY OF THIS REPOSITORY AND ALL ASSETS
