@@ -5,7 +5,7 @@ Python utility for simulating events to Azure Event Hub using predefined dataset
 ## Pre-requisite
 
 - [Terraform](https://www.terraform.io/downloads.html)
-- [Python 3](https://www.python.org/downloads/) or [Anaconda w. Python 3](https://www.anaconda.com/distribution/)
+- [Python 3](https://www.python.org/downloads/) or [Anaconda with Python 3](https://www.anaconda.com/distribution/)
 
 ## Getting Started
 
